@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 // import maine from '../views/HomeView.vue'
 import maine from '@/scripts/compose/base1.vue'
 import Base1 from '@/scripts/compose/base1.vue';
+import Base2 from '@/scripts/compose/base2.vue';
 
 // const router = createRouter({
 //   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,10 +24,15 @@ import Base1 from '@/scripts/compose/base1.vue';
 // })
 const routes = [
   {
+  name: 'Base1',  
   path: '/',
-  name: 'base1',
   component: Base1,
-  }
+  },
+  {
+    name: 'Base2',
+    path: '/base2',
+    component: Base2,
+    }
 ]
 
 

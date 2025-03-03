@@ -1,10 +1,9 @@
 <template>
-    <p>wryyyyyyyy</p>
-    <!-- <base2/> -->
+    <p>oraoraoraoraora</p>
 </template>
 
 <script setup lang="ts">
-import base2 from './base2.vue';
+
 
 </script>
 
